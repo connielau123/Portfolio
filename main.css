@@ -19,15 +19,18 @@ h1,h2,h3,h4,h5
         padding-bottom: 120px;
     }
 
-    #home
+#home
 	{
-        background: url('/images/home-bg.jpg');
+        background: url('./images/home.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
         padding-top: 120px;
         padding-bottom: 140px;
         text-align: center;
+        text-shadow: 2px 2px black;
 	}
+
 #home h1
     {
         border: 2px solid #D43F52;
@@ -60,7 +63,7 @@ h1,h2,h3,h4,h5
         border-color: transparent;
     }
 
-    #work
+#work
     {
         background: #1a1a1a;
     }
@@ -100,7 +103,7 @@ h1,h2,h3,h4,h5
         padding-bottom: 10px;
     }
 
-    #about h4
+#about h4
     {
         padding: 15px 0;
 		color: #D43F52;
@@ -132,7 +135,7 @@ h1,h2,h3,h4,h5
         float: right;
     }
 
-    #portfolio
+#portfolio
     {
         background: #1a1a1a;
         text-align: center;
@@ -228,29 +231,4 @@ footer
 footer hr
     {
         width: 100px;
-    }
-
-.social-icon
-    {
-        position: relative;
-        padding: 0;
-        margin: 0;
-    }
-.social-icon li
-    {
-        display: inline-block;
-        list-style: none;
-    }
-.social-icon li a
-    {
-        border-radius: 50%;
-        color: #606060;
-        text-decoration: none;
-        transition: all 0.4s ease-in-out;
-        text-align: center;
-        margin-right: 10px;
-    }
-.social-icon li a:hover
-    {
-        color: #D43F52;
     }
